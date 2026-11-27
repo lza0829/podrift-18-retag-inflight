@@ -1,0 +1,20 @@
+# 依赖
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 数据与运行态
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# 构建产物
+frontend/dist/
+
+# 系统/编辑器
+.DS_Store
+.idea/
+.vscode/
